@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook Suite" parallel="tests">
+  
+   <test name="LoginTest">
+      <classes>
+         <class name="com.qtpselenium.facebook.pom.testcases.LoginTest" />
+      </classes>
+   </test>
+
+   <test name="ProfileTest">
+      <classes>
+         <class name="com.qtpselenium.facebook.pom.testcases.ProfileTest" />
+      </classes>
+   </test>
+   
+   <test name="ChangePasswordTest">
+      <classes>
+         <class name="com.qtpselenium.facebook.pom.testcases.ChangePasswordTest" />
+      </classes>
+   </test>
+
+</suite>

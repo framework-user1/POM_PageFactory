@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook Suite]" parallel="tests">
+  <test name="LoginTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.facebook.pom.testcases.ProfileTest">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.facebook.pom.testcases.ProfileTest -->
+      <class name="com.qtpselenium.facebook.pom.testcases.ChangePasswordTest">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.facebook.pom.testcases.ChangePasswordTest -->
+      <class name="com.qtpselenium.facebook.pom.testcases.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qtpselenium.facebook.pom.testcases.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Facebook Suite] -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook Suite" duration-ms="46720" started-at="2016-10-29T20:05:20Z" finished-at="2016-10-29T20:06:06Z">
+    <groups>
+    </groups>
+    <test name="ChangePasswordTest" duration-ms="33373" started-at="2016-10-29T20:05:20Z" finished-at="2016-10-29T20:05:53Z">
+      <class name="com.qtpselenium.facebook.pom.testcases.ChangePasswordTest">
+        <test-method status="PASS" signature="changePasswordTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.facebook.pom.testcases.ChangePasswordTest@5a91f5a1]" name="changePasswordTest" duration-ms="32482" started-at="2016-10-30T01:35:20Z" data-provider="getData" finished-at="2016-10-30T01:35:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NewPassword=format456, Username=savinggrace.456@gmail.com, OldPassword=format456, ExpectedResult=Unsuccessful, Runmode=Y, Browser=Firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.facebook.pom.testcases.ChangePasswordTest@5a91f5a1]" name="quit" is-config="true" duration-ms="767" started-at="2016-10-30T01:35:52Z" finished-at="2016-10-30T01:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.facebook.pom.testcases.ChangePasswordTest -->
+    </test> <!-- ChangePasswordTest -->
+    <test name="ProfileTest" duration-ms="33795" started-at="2016-10-29T20:05:20Z" finished-at="2016-10-29T20:05:53Z">
+      <class name="com.qtpselenium.facebook.pom.testcases.ProfileTest">
+        <test-method status="PASS" signature="profileTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.facebook.pom.testcases.ProfileTest@76744438]" name="profileTest" duration-ms="33273" started-at="2016-10-30T01:35:20Z" data-provider="getData" finished-at="2016-10-30T01:35:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=savinggrace.456@gmail.com, ExpectedResult=Successful, Password=format456, Runmode=Y, Browser=Firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.facebook.pom.testcases.ProfileTest@76744438]" name="quit" is-config="true" duration-ms="399" started-at="2016-10-30T01:35:53Z" finished-at="2016-10-30T01:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.facebook.pom.testcases.ProfileTest -->
+    </test> <!-- ProfileTest -->
+    <test name="LoginTest" duration-ms="46720" started-at="2016-10-29T20:05:20Z" finished-at="2016-10-29T20:06:06Z">
+      <class name="com.qtpselenium.facebook.pom.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.facebook.pom.testcases.LoginTest@2f9dc6f7]" name="loginTest" duration-ms="24968" started-at="2016-10-30T01:35:20Z" data-provider="getData" finished-at="2016-10-30T01:35:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=savinggrace.456@gmail.com, ExpectedResult=Successful, Password=format456, Runmode=Y, Browser=Firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.facebook.pom.testcases.LoginTest@2f9dc6f7]" name="quit" is-config="true" duration-ms="1180" started-at="2016-10-30T01:35:45Z" finished-at="2016-10-30T01:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.facebook.pom.testcases.LoginTest@2f9dc6f7]" name="loginTest" duration-ms="19689" started-at="2016-10-30T01:35:46Z" data-provider="getData" finished-at="2016-10-30T01:36:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=xxx, ExpectedResult=Unsuccessful, Password=aaa, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.facebook.pom.testcases.LoginTest@2f9dc6f7]" name="quit" is-config="true" duration-ms="752" started-at="2016-10-30T01:36:06Z" finished-at="2016-10-30T01:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.facebook.pom.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Facebook Suite -->
+</testng-results>

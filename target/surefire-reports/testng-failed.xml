@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.facebook.pom.base.BaseTest"/>
+      <class name="com.qtpselenium.facebook.pom.testcases.ChangePasswordTest"/>
+      <class name="com.qtpselenium.facebook.pom.testcases.LoginTest"/>
+      <class name="com.qtpselenium.facebook.pom.testcases.ProfileTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+</suite> <!-- Failed suite [Command line suite] -->
