@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE project>
-<project name="Learning TestNG" default="usage" basedir=".">
+<project name="Learning PageFactory" default="usage" basedir=".">
    <!-- ========== Initialize Properties =================================== -->
    <property environment="env" />
    <property name="ws.home" value="${basedir}" />
